@@ -117,11 +117,11 @@ form.addEventListener("keyup", (e) => {
   }
 });
 
-window.onscroll = function () {
-  const header = document.getElementById("header-bar");
-  if (window.pageYOffset >= 5) {
-    header.style.display = "none";
-  } else {
-    header.style.display = "fixed";
-  }
-};
+// window.onscroll = function () {
+//   const header = document.getElementById("header-bar");
+//   if (window.pageYOffset >= 5) {
+//     header.style.display = "none";
+//   } else {
+//     header.style.display = "fixed";
+//   }
+// };
